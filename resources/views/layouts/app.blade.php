@@ -7,6 +7,9 @@
         <title>Video Game App</title>
 
         <link rel="stylesheet" href="/css/main.css">
+
+        <livewire:styles>
+
     </head>
     <body class="bg-gray-900 text-white">
     <header class="border-b border-gray-800">
@@ -45,5 +48,8 @@
             Powered by <a target="_blank" href="https://www.igdb.com/api" class="underline hover:text-gray-800">IGDB API</a>
         </div>
     </footer>
+
+    <livewire:scripts>
+
     </body>
 </html>
